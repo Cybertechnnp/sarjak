@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        background-color: aqua;
+    }
+    
+    .navbar {
+    display: flex;
+    padding-top: 2px;
+    border: 1px solid grey;
+    background-color: rgb(1, 80, 111);
+    padding-bottom: 2px;
+    }
+    
+    .navbar img {
+    margin-left: 50px;
+    }
+    
+    .navbar ul {
+    display: flex;
+    margin: auto;
+    width: 38%;
+    }
+    
+    .navbar li {
+    list-style: none;
+    margin-left: 60px;
+    }
+    
+    .navbar li a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    }
+    
+    .navbar li a:hover {
+    color: blue;
+    text-decoration: underline;
+    }
+    
+    .main-section-1 img {
+    float: right;
+        width: 35%;
+        height: 75vh;
+        margin-top: 20px;
+        
+    }
+    
+    .home{
+    padding: 30px;
+    background-color: #000000;
+    margin-right: 0px;
+    }
+    
+    .main-section-text {
+    width: 50%;
+    padding: 85px;
+    padding-top: 110px;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    }
+    
+    .main-section-text h1 {
+    font-size: 2.8rem;
+    margin: 0px 0px 30px;
+    color: white;
+    }
+    
+    .main-section-text p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: 'Oxygen', sans-serif;
+    }
+    
+    .btn {
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 23px;
+    cursor: pointer;
+    }
+    
+    .btn a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    .btn:hover {
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    }
+    
+    .btn a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    }
+    
+    .button {
+    margin-left: 40px;
+    }
+    
+    .section-2 img {
+    float: right;
+    margin-right: 25px;
+    margin-top: 60px;
+    width: 40%;
+    height: 80vh;
+    }
+    
+    .section-2 {
+    padding: 30px 30px 0px;
+    background-color: #ede8e8;
+    }
+    
+    .section-2-text {
+    width: 50%;
+    padding: 100px;
+    padding-top: 100px;
+    }
+    
+    .section-2-text h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-family: 'Oxygen', sans-serif;
+    }
+    
+    .section-2-text p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: 'Oxygen', sans-serif;
+    }
+    
+    .btn-section-2 a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+    }
+    
+    .navbar ul {
+    width: 45%;
+    }
+    
+    .navbar ul li {
+    margin-left: 35px;
+    }
+    
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+      
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      footer{
+        text-align: center;
+        background-color: aquamarine;
+    }
+   
+    
+   
